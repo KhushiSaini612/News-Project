@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.header_content{
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+.auth_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth_btn{
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #bdc7db;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+.auth_btn:hover{
+    background-color: rgb(249, 248, 248);
+    transform: scale(1.1);
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li{
+    margin-right: 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+    position: fixed;
+    padding: 10px 20px;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+article{
+    display: flex;
+    margin-bottom: 5px;
+    background-color: #E5E7EB;
+    /* background-color: #686d6e; */
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+article h2 a{
+    text-decoration: none;
+}
+article:hover{
+    background-color: #cdc5c5;
+}
+.article_image{
+    height: 120px;
+    width: 200px;
+    border-radius: 5%;
+    border-color: black;
+}
+.article_content{
+    padding: 5px;
+    margin-left: 70px;
+}
+.author_pub{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-weight: bold;
+    color: rgb(92, 77, 206);
+}
+.img_author{
+    display: flex;
+    flex-direction: column;
+    width: 10%;   
+}
+.div_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #686d6e;
+}
+.div_head h2{
+    font-weight: bold;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: #b1c9f9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.article_content a{
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: #b1c9f9;
+    color: black;
+    padding: 2px;
+}
+
+
